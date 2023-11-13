@@ -36,7 +36,7 @@ def validate_transaction(transaction):
 def append_entry(transaction):
     """Opens entries json and adds new transaction"""
 
-    with open(f'files/database.json', "r+") as file:
+    with open(f'app/data/database.json', "r+") as file:
         transaction_file = json.load(file)
         transaction_file['data'].append(transaction)
         file.seek(0)
