@@ -1,1 +1,1 @@
-# FIMAP
+# Flask-FIMAP
